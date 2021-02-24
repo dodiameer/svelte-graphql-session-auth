@@ -1,6 +1,6 @@
 <script>
-  import LogoutButton from "./LogoutButton.svelte";
-  import { user } from "./stores";
+  import LogoutButton from "../utils/components/LogoutButton.svelte";
+  import { user } from "../stores";
 </script>
 
 <h1>Hi, {$user.username}</h1>

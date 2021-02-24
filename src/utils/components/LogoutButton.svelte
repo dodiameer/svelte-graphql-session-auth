@@ -1,6 +1,6 @@
 <script>
   import { gql, mutation, operationStore } from "@urql/svelte";
-  import { user } from "./stores";
+  import { user } from "../../stores";
   import { useNavigate } from "svelte-navigator";
   const mutationStore = operationStore(gql`
     mutation {

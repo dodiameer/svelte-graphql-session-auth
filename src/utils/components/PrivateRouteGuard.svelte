@@ -1,7 +1,7 @@
 <script>
   import { onMount } from "svelte";
   import { useNavigate, useLocation, useFocus } from "svelte-navigator";
-  import { user, checkAuthStatus } from "./stores";
+  import { user, checkAuthStatus } from "../../stores";
 
   let isChecking = true;
 
